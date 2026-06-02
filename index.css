@@ -1,0 +1,87 @@
+body{
+  background-color: black;
+}
+.parent{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10%;
+}
+.top{
+  height: 100px;
+  width: 300px;
+}
+.top img{
+  height: 50px;
+  width: 70px;
+  margin-top: 40px;
+  border-radius: 50%;
+  border: none;
+}
+.top button{
+  height: 30px;
+  width: 60px;
+  margin-left: 150px;
+  border-radius: 15%;
+}
+.center{
+  margin-top: 50px;
+}
+.center h3{
+  height: 25px;
+  width: 300px;
+  font-size: 20px;
+  display: inline-block;
+  margin: auto;
+}
+.center h3 span{
+  height: 5px;
+  width: 5px;
+  font-size: 15px;
+  font-weight: 100;
+}
+.center h2{
+  height: 30px;
+  width: 300px;
+  font-size: 25px;
+  display: inline-block;
+  margin: auto;
+}
+.tag h4{
+  height: 25px;
+  width: 300px;
+  font-size: 20px;
+  display: inline-block;
+  margin: auto;
+}
+.bottom{
+  margin-top: 50px;
+}
+.location h3{
+  height: 30px;
+  font-size: 25px;
+  display: inline;
+  margin: auto;
+}
+.location p{
+  height: 25px;
+  width: 60px;
+  font-size: 20px;
+  display: inline;
+  margin: auto;
+  margin-left: 60px;
+}
+.bottom button{
+  margin-left: 200px;
+  border-radius: 15%;
+  background-color: black;
+  color: white;
+}
